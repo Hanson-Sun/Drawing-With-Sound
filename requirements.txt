@@ -1,0 +1,10 @@
+scipy
+pydub
+opencv-python
+numpy
+matplotlib
+mediapipe
+sklearn
+networkx
+imutils
+windows_curses
