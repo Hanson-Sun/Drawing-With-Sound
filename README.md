@@ -32,7 +32,7 @@ The audio output and by connected to an oscilloscope in x-y mode to draw the fin
 - install all the requirements in requirements.txt through python pip
 - run main.py
 - input the image or video file as per instruction in console (any assets used should be in the input folder for easy organization)
-- wait... it could take very long
+- wait... it could take very long (if the program crashes just run it again with the same input file, progress should be saved)
 - final product should be in the output folder
 
 ## Fine tuning
