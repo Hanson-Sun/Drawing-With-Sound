@@ -30,7 +30,7 @@ The audio output and by connected to an oscilloscope in x-y mode to draw the fin
 ## Running the Program
 
 - install all the requirements in requirements.txt through python pip
-- run main.py
+- run `main.py`
 - input the image or video file as per instruction in console (any assets used should be in the input folder for easy organization)
 - wait... it could take very long (if the program crashes just run it again with the same input file, progress should be saved)
 - final product should be in the output folder
@@ -39,10 +39,10 @@ The audio output and by connected to an oscilloscope in x-y mode to draw the fin
 
 The parameters used for each rendering is largely experimental and will probably require user fine tuning. 
 Some paramaters to explore include:
-- cv2.resize(frame, [n, int(n/width*height)]) (gen.py line 23) change the value of n for different resize
-- cv2.GaussianBlur(frame, [0, 0], 1) (gen.py line 45) change the parameters of gaussian blur for different edge detection results
-- clf = NearestNeighbors(n_neighbors=21).fit(points) (gen.py line 57) change the number of n_neighbors to alter complexity of final trace
-- duration = 0.033333 (gen.py line 85) change the duration to alter the detail and speed in final result (highly recommended for video inputs as it controls the length per frame)
+- `cv2.resize(frame, [n, int(n/width*height)])` (gen.py line 23) change the value of n for different resize
+- `cv2.GaussianBlur(frame, [0, 0], 1)` (gen.py line 45) change the parameters of gaussian blur for different edge detection results
+- `clf = NearestNeighbors(n_neighbors=21).fit(points)` (gen.py line 57) change the number of n_neighbors to alter complexity of final trace
+- `duration = 0.033333` (gen.py line 85) change the duration to alter the detail and speed in final result (highly recommended for video inputs as it controls the length per frame)
 
 ### have fun!
 
